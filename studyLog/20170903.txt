@@ -1,0 +1,15 @@
+本周主要
+讨论关于减少if，else，提高效率，查询资料得到如下方法可以借鉴：
+
+https://segmentfault.com/q/1010000004126608/a-1020000004127078
+
+
+function getName(type) {
+    var data = {
+        monkey: 'monkey name',
+        cat: 'cat name',
+        dog: 'dog name'
+    }
+
+    return data[type] ? data[type] : data['dog'];
+}
